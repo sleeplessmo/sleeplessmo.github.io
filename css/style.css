@@ -51,3 +51,9 @@ footer {
     border-top: 1px solid #eee;
     padding-top: 20px;
 }
+/* Style for clickable project cards */
+.project-link-card {
+    text-decoration: none; /* Removes the default link underline */
+    color: inherit; /* Makes the text color the same as its parent */
+    display: block; /* Ensures the link takes up the full card space */
+}
