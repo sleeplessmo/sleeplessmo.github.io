@@ -57,3 +57,65 @@ footer {
     color: inherit; /* Makes the text color the same as its parent */
     display: block; /* Ensures the link takes up the full card space */
 }
+/* ================================== */
+/* New Navigation Bar Styles          */
+/* ================================== */
+
+/* The main navigation container */
+.top-nav {
+    display: flex;
+    justify-content: space-between; /* Pushes logo to the left and links to the right */
+    align-items: center;
+    padding: 20px 0;
+    border-bottom: 1px solid #e0e0e0; /* Subtle line like the example */
+    margin-bottom: 40px; /* Space between nav and content */
+}
+
+/* Your name/logo on the left */
+.top-nav .logo a {
+    font-size: 1.2rem;
+    font-weight: 600; /* Bolder than normal text */
+    color: #333;
+    text-decoration: none;
+}
+
+/* Container for the nav links on the right */
+.top-nav .nav-links {
+    list-style: none; /* Removes bullet points */
+    margin: 0;
+    padding: 0;
+    display: flex;
+    gap: 30px; /* Space between "About" and "My Work" */
+}
+
+/* Individual navigation links */
+.top-nav .nav-links a {
+    text-decoration: none;
+    color: #555; /* A softer black for non-active links */
+    font-size: 1rem;
+    font-weight: 500;
+    transition: color 0.2s ease;
+}
+
+/* Hover effect for links */
+.top-nav .nav-links a:hover {
+    color: #007bff; /* Change color on hover */
+}
+
+/* THIS IS THE HIGHLIGHTING STYLE */
+.top-nav .nav-links a.active {
+    color: #111; /* Darker color for the active page */
+    font-weight: 700; /* Makes it bold */
+}
+
+
+/* Styling for the new headers below the nav */
+.page-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.page-header-portfolio {
+    text-align: center;
+    margin-bottom: 20px;
+}
